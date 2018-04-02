@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 //connection
-mongoose.connect("mongodb://izra1:imagesearch@ds033066.mlab.com:33066/searchterm").then(
+mongoose.connect("mongodb://izra1:imagesearch@ds023463.mlab.com:23463/imagesearch").then(
   () => { console.log("connected") },
   err => { console.log(err) }
 );
